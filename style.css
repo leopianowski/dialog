@@ -1,0 +1,86 @@
+/* cores
+verde #0aea3e
+preto #130528 */
+
+*{
+    /* Para não dar erro na hora dos caclulos da caixa */
+    box-sizing: border-box;
+    font-family: 'Montserrat';
+    background-color: #130528;
+}
+
+header{
+    display: flex;
+    align-items: center;
+}
+
+
+.logo img{
+width: 16px; 
+height: 25px;
+}
+
+.logo{
+    margin: 20px;
+}
+
+.logo-text{
+    font-size: 20px;
+    margin-right: 20px;
+    color: white;
+}
+
+.search{
+    border: 1px solid white;
+    border-radius: 20px;
+    padding: 10px;
+    
+    
+}
+
+.cards{
+    margin: 20px;
+    display: inline-block;
+    
+   
+}
+
+.card-1{
+    padding: 20px;
+    border: 1px solid white;
+    border-radius: 30px;
+    width: 245px;
+    font-size: 12px;
+    margin: 20px;
+    display: inline-block;
+    color: white;
+    cursor: pointer;
+    
+}
+
+.card-1 img{
+    border-radius: 100%;
+    border: 1px solid #0aea3e;
+}
+
+footer{
+    text-align: center;
+    
+}
+
+.info{
+    display: flex;
+    justify-content: left
+}
+
+.details{
+    color: white;
+    font-size: 13px;
+    margin: 20px;
+
+}
+
+.details img{
+    border-radius: 100%;
+    border: 1px solid #0aea3e;
+}
